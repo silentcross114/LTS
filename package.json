@@ -1,0 +1,19 @@
+{
+  "name": "lts",
+  "version": "1.0.0",
+  "description": "language tests server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simon",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "debug": "^2.2.0",
+    "koa": "^1.2.0",
+    "mocha": "^2.4.5",
+    "mongodb": "^2.1.18"
+  }
+}

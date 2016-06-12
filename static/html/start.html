@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Language Tests Server
+        </title>
+    </head>
+    <body>
+    <form action="../start" method="post">
+          <div class="">
+            <div class="txt">
+                <div>
+                    UserId
+                    <input id="userId" name="userId" style="width: 60px;" type="text" value="001"/>
+                </div>
+                <div>
+                    name
+                    <input id="fullName" name="fullName" style="width: 80px;" type="text" value="John Doe"/>
+                </div>
+                <div>
+                    Starts a
+                    <select id="testType" name="testType">
+                        <option value="PlacementTest">
+                            Placement Test
+                        </option>
+                        <option value="ProgressionTest">
+                            Progression Test
+                        </option>
+                        <option value="AchievementTest">
+                            Achievement Test
+                        </option>
+                        <option value="ScreenerTest">
+                            Screener Test
+                        </option>
+                        <option value="FoundationPlacementTest">
+                            Foundation Placement Test
+                        </option>
+                        <option value="ProficiencyTest">
+                            Proficiency Test
+                        </option>
+                        <option value="SelfAssessmentTest">
+                            SelfAssessment Test
+                        </option>
+                        <option value="SeuPlacementTestViewAll">
+                            SEU Placement Test - All Questions
+                        </option>
+                        <option value="SeuPlacementTest">
+                            RS SEU Placement Test
+                        </option>
+                        <option value="AEBPlacementTest">
+                            RS AEB Placement Test
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    in
+                    <select id="discipline" name="discipline">
+                        <option value="ITALIAN">
+                            Italian
+                        </option>
+                        <option value="SPANISH">
+                            Spanish
+                        </option>
+                        <option value="GERMAN">
+                            German
+                        </option>
+                        <option value="DUTCH">
+                            Dutch
+                        </option>
+                        <option value="FRENCH">
+                            French
+                        </option>
+                        <option selected="selected" value="ENGLISH">
+                            English
+                        </option>
+                        <option value="BRITISH_ENGLISH">
+                            British
+                        </option>
+                        <option value="ARABIC">
+                            ARABIC
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    in interface language
+                    <input id="interfaceLanguage" name="interfaceLanguage" style="width: 40px;" type="text" value="en-US"/>
+                </div>
+                <div>
+                    from server
+                    <input id="serverId" name="serverId" style="width: 80px;" type="text" value="TMMDEMO"/>
+                </div>
+                <div>
+                    on question Set
+                    <input id="questionSetId" name="questionSetId" style="width: 30px;" type="text" value=""/>
+                </div>
+                <div>
+                    with session
+                    <input id="SessionId" name="SessionId" style="width: 30px;" type="text" value=""/>
+                </div>      
+                <div id="btn">
+                <input type='submit' value='GO'/>                    
+                </div>
+            </div>
+        </div>
+    </form>
+      
+        <style type="text/css">
+            #start {
+        padding: 20px;
+        margin-top: 80px;
+        position: relative;
+        height: 200px;
+    }
+
+    .txt {
+        padding: 9px;
+        color: darkslategray;
+        margin-bottom: 5px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 5;
+        padding: 20px;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+
+        .txt div {
+            min-height: 20px;
+        }
+
+    #btn {
+        height: 25px;
+        width: 50px;
+        background-color: lightblue;
+        padding-top: 10px;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .background {
+        height: 200px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+        </style>
+    </body>
+</html>
