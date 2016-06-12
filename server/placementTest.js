@@ -1,6 +1,8 @@
 /**
  * Created by Simon on 2016/4/14.
  */
+'use strict'
+
 var debug = require('debug')('placement');
 var da = require('./dataAccess.js');
 var stringResource = require("./stringResource.js");
